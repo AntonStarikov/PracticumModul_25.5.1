@@ -15,6 +15,7 @@ def testing():
 
     pytest.driver.quit()
 
+# Тест на проверку авторизации на сайте
 def test_show_my_pet():
     # Авторизация и вход на страницу моих питомцев
     pytest.driver.find_element_by_id('email').send_keys('Antaresstar86@yandex.ru')
